@@ -1,0 +1,25 @@
+2025-12-05 00:51:55,254 - INFO - === Task 1: Data Ingestion and Validation ===
+2025-12-05 00:51:55,260 - INFO - No CSV files found in data. Generating sample data...
+2025-12-05 00:51:55,326 - INFO - Sample CSV created: data\admin_jan.csv
+2025-12-05 00:51:55,343 - INFO - Sample CSV created: data\library_jan.csv
+2025-12-05 00:51:55,350 - INFO - Sample CSV created: data\hostel_jan.csv
+2025-12-05 00:51:55,355 - INFO - Processing file: data\admin_jan.csv
+2025-12-05 00:51:55,395 - INFO - Processing file: data\hostel_jan.csv
+2025-12-05 00:51:55,437 - INFO - Processing file: data\library_jan.csv
+2025-12-05 00:51:55,476 - INFO - Combined DataFrame shape: (2232, 5)
+2025-12-05 00:51:55,505 - INFO - Daily totals shape: (93, 3)
+2025-12-05 00:51:55,530 - INFO - Weekly aggregates shape: (15, 3)
+2025-12-05 00:51:55,540 - INFO - Building-wise summary:
+               mean    min     max     total
+building                                    
+Admin     50.311371  20.02   79.97  37431.66
+Hostel    74.374758  30.07  119.82  55334.82
+Library   37.464234  15.01   59.99  27873.39
+2025-12-05 00:51:55,578 - INFO - Building summary dict: {'Admin': {'mean': 50.311370967741944, 'min': 20.02, 'max': 79.97, 'total': 37431.66}, 'Hostel': {'mean': 74.37475806451613, 'min': 30.07, 'max': 119.82, 'total': 55334.82}, 'Library': {'mean': 37.46423387096774, 'min': 15.01, 'max': 59.99, 'total': 27873.39}}
+2025-12-05 00:51:55,670 - INFO - OOP building reports: {'Admin': {'total': 37431.66, 'mean': 50.311370967741944, 'min': 20.02, 'max': 79.97}, 'Hostel': {'total': 55334.82, 'mean': 74.37475806451613, 'min': 30.07, 'max': 119.82}, 'Library': {'total': 27873.39, 'mean': 37.46423387096774, 'min': 15.01, 'max': 59.99}}
+2025-12-05 00:51:55,710 - INFO - === Task 4: Creating dashboard visualizations ===
+2025-12-05 00:51:57,116 - INFO - Dashboard saved to output\dashboard.png
+2025-12-05 00:51:57,121 - INFO - === Task 5: Persistence and Executive Summary ===
+2025-12-05 00:51:57,141 - INFO - Cleaned data exported to output\cleaned_energy_data.csv
+2025-12-05 00:51:57,148 - INFO - Building summary exported to output\building_summary.csv
+2025-12-05 00:51:57,162 - INFO - Summary written to output\summary.txt
