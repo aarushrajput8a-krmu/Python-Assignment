@@ -1,6 +1,6 @@
 """
 ---------------------------------------------------------
- Code  : Tanish Kumar
+ Code  : Aarush Rajput
  Date    : 26 Sept 2025
  Project : Daily Calorie Tracker CLI
  Purpose : A console-based app to track meals and calories
@@ -157,3 +157,4 @@ if view_choice == "yes":
             print("Please enter a valid number.")
 
 print("\n🎉 Thank you for using Daily Calorie Tracker! Stay healthy 💪")
+
