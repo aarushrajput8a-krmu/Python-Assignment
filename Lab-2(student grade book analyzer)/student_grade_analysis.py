@@ -1,6 +1,6 @@
 """
 gradebook.py
-Name      : Tanish
+Name      : Aarush Rajput
 Date      : 01-12-2025
 Title     : Gradebook Analyzer
 """
@@ -334,3 +334,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
